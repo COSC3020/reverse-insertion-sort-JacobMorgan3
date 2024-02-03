@@ -14,7 +14,7 @@ function insertionSortReverse(arr) {
     return arr;
 }
 
-arr = [1, 0]
+//arr = [1, 0]
 
-console.log(insertionSortReverse(arr))
+//console.log(insertionSortReverse(arr))
 
