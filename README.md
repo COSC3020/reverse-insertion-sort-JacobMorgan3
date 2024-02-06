@@ -41,5 +41,5 @@ that you've understood the concept. Add your answer to this markdown file.
 
 
 
-ANSWER: The average time complexity of insertion sort is $\Theta(n^2)$. The reason it is $\Theta(n^2)$ is that the outer loop iteratesover the whole array, so it is linear (or n). Then the inner loop has to iterate until it finds the correct spot to insert into. This is somewhere between 0 and n. As the length of the array increases the iterations of the inner loop also increase. If the length doubled then the inner loop iterations would on average double, so it is linear (n). n * n = (n^2). Hence $\Theta(n^2)$
+ANSWER: The average time complexity of insertion sort is $\Theta(n^2)$. The reason it is $\Theta(n^2)$ is that the outer loop iteratesover the whole array, so it is linear (or n). Then the inner loop has to iterate until it finds the correct spot to insert into. This is somewhere between 0 and n. As the length of the array increases the iterations of the inner loop also increase. If the length doubled then the inner loop iterations would on average double, so it is linear (n). n * n = n^2. Hence $\Theta(n^2)$
 
